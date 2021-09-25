@@ -404,6 +404,9 @@ body {
 }
 
 .hero_portfolio_second_items {
+  width: 370px;
+  height: 404px;
+
   background: var(--primary-title-color);
   border: 1px solid var(--third-bg-color);
   box-sizing: border-box;
@@ -424,4 +427,29 @@ body {
   line-height: calc(30 / 16);
 
   color: var(--primary-text-color);
+}
+
+.hero-portfolio-menu-container {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.hero_portfolio_menu {
+  display: flex;
+  align-items: center;
+}
+
+.hero_portfolio_first_items {
+  margin-right: 8px;
+}
+
+.hero-portfolio-works-container {
+  margin-top: 56px;
+}
+
+.portfolio-card-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
