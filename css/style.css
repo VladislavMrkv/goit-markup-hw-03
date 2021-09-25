@@ -410,6 +410,9 @@ body {
   background: var(--primary-title-color);
   border: 1px solid var(--third-bg-color);
   box-sizing: border-box;
+
+  margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 .hero_portfolio_second_names {
@@ -420,6 +423,8 @@ body {
   letter-spacing: 0.06em;
 
   color: var(--secondary-title-color);
+
+  margin-bottom: 4px;
 }
 
 .hero_portfolio_second_text {
@@ -450,6 +455,12 @@ body {
 }
 
 .portfolio-card-text {
+  padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
 }
